@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "name": "qiita_underline_green",
+  "description": "Qiitaの記事の見出しの下線を緑色に変更するChrome拡張機能です",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [ "http://qiita.com/*" ],
+      "css": [ "css/yuxioarts_qiita_underline_green.css" ]
+    }
+  ]
+}
